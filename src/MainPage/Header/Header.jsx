@@ -9,15 +9,15 @@ const Header = () => {
   const images = [
     {
       src: head1,
-      text: "RentMe — Talantlarni kashf etish va imkoniyatlarni yaratish!"
+      text: "HireMe — Discover talents and create opportunities!"
     },
     {
       src: back,
-      text: "RentMe — Sizga mos ish, biz bilan birga!"
+      text: "HireMe — The right job for you, together with us!"
     },
     {
       src: head2,
-      text: "RentMe — Ish izlovchilar va topuvchilar uchrashadigan manzil!"
+      text: "HireMe — The meeting place for job demanders and experts!"
     }
   ];
 
@@ -33,7 +33,7 @@ const Header = () => {
 
   return (
     <div id="controls-carousel" className="relative w-full" style={{ height: '90vh' }}>
-      <div className="relative w-full h-full overflow-hidden ">
+      <div className="relative w-full h-full overflow-hidden">
         {images.map((image, index) => (
           <div
             key={index}
@@ -47,13 +47,13 @@ const Header = () => {
             }}
           >
             <div className="flex items-center justify-center w-full h-full text-center px-4">
-              <div className="">
+              <div>
                 <p className="text-[38px] text-white font-semibold mb-4">{image.text}</p>
                 <NavLink to="/">
-              <button className='hidden xl:block xl:w-[150px] xl:h-[45px] bg-[#2F94F2] text-[#fff] rounded-sm'>
-                Batafsil
-              </button>
-            </NavLink>
+                  <button className='hidden xl:block xl:w-[150px] xl:h-[45px] bg-[#2F94F2] text-[#fff] rounded-sm'>
+                    Details
+                  </button>
+                </NavLink>
               </div>
             </div>
           </div>

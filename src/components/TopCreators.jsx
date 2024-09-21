@@ -100,6 +100,7 @@ const TopCreators = () => {
           onChange={(e) => setSearchTerm(e.target.value)}
         />
       </div>
+
       <div className="mt-6">
         <table className="w-full table-auto">
           <thead>
@@ -123,14 +124,14 @@ const TopCreators = () => {
                   <img
                     src={creator.image}
                     alt={creator.name}
-                    className="w-10 h-10 rounded-full mr-3"
+                    className="w-10 h-10 rounded-full mr-2"
                   />
-                  <Link to={`/user/${creator.id}`} className="hover:underline">
+                  <Link to={`/creator/${creator.id}`} className="text-white hover:underline">
                     {creator.name}
                   </Link>
                 </td>
                 <td className="p-2">{creator.jobs}</td>
-                <td className="p-2 text-green-400">{creator.change}</td>
+                <td className="p-2">{creator.change}</td>
                 <td className="p-2">{creator.nftsSold}</td>
                 <td className="p-2">{creator.volume}</td>
               </tr>
@@ -140,14 +141,12 @@ const TopCreators = () => {
       </div>
 
       {visibleCount < filteredCreators.length && (
-        <div className="mt-4 flex justify-center">
-          <button
-            onClick={handleLoadMore}
-            className="py-2 px-4 bg-blue-600 rounded-lg hover:bg-blue-700 transition duration-200"
-          >
-            Load More
-          </button>
-        </div>
+        <button
+          className="mt-4 py-2 px-4 bg-blue-600 text-white rounded-lg hover:bg-blue-700"
+          onClick={handleLoadMore}
+        >
+          Load More
+        </button>
       )}
     </div>
   );

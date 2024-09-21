@@ -357,11 +357,6 @@ function DoctorProfile() {
     <div className="bg-gray-100 min-h-screen">
       {/* Profile Header */}
       <div className="relative bg-gradient-to-r from-purple-500 to-pink-500 h-80">
-        <img
-          src="https://your-background-image-url.jpg"
-          alt="Background"
-          className="w-full h-80 object-cover opacity-70"
-        />
         <div className="absolute top-0 left-0 w-full h-full flex justify-center items-end p-6">
           <div className="text-center">
             <img
@@ -386,12 +381,13 @@ function DoctorProfile() {
             <p className="text-gray-400">Volume</p>
           </div>
           <div>
-            <h2 className="text-2xl font-bold">50+</h2>
-            <p className="text-gray-400">NFTs Sold</p>
+            <h1 className="text-2xl font-bold">Earned</h1>
+            <h2 className="text-2xl font-bold">5k+</h2>
+            {/* <p className="text-gray-400">NFTs Sold</p> */}
           </div>
           <div>
             <h2 className="text-2xl font-bold">{doctor.followers}</h2>
-            <p className="text-gray-400">Followers</p>
+            <button className="w-[120px] h-[40px] bg-[green] ">Connect</button>
           </div>
         </div>
 

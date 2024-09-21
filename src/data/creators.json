@@ -155,15 +155,15 @@
         "description": "A memorable guest role in a popular TV show.",
         "year": 2021,
         "image": "https://i.pinimg.com/736x/0d/64/98/0d64989794b1a4c9d89bff571d3d5842.jpg",
-        "comment": "Travis's guest appearance in 'Mystery Town' brought humor and intrigue to the episode."
+        "comment": "Travis's guest appearance in 'Mystery Mansion' left a lasting impression on viewers."
       },
       {
-        "title": "Documentary Narration",
+        "title": "Film Debut",
         "price": 1200,
-        "description": "Narrating a thought-provoking documentary.",
+        "description": "An impressive debut performance in an independent film.",
         "year": 2020,
         "image": "https://bernardmarr.com/wp-content/uploads/2021/11/What-Are-NFTs-An-Easy-Explanation-For-Anyone.jpg",
-        "comment": "Travis's narration of 'Voices of the Past' provides a compelling perspective."
+        "comment": "Travis's debut in 'Falling Leaves' showcased his potential as a rising star."
       }
     ]
   },
@@ -180,242 +180,42 @@
       {
         "title": "Debut Album",
         "price": 1200,
-        "description": "An impressive debut album showcasing diverse musical styles.",
+        "description": "Showcasing diverse musical styles and heartfelt lyrics.",
         "year": 2023,
-        "image": "https://bernardmarr.com/wp-content/uploads/2021/11/What-Are-NFTs-An-Easy-Explanation-For-Anyone.jpg",
-        "comment": "Emma Carter's debut album has received critical acclaim for its innovative sound and heartfelt lyrics."
+        "image": "https://i.pinimg.com/736x/0d/64/98/0d64989794b1a4c9d89bff571d3d5842.jpg",
+        "comment": "Emma's debut album has resonated with fans worldwide."
       },
       {
-        "title": "Hit Single",
+        "title": "Single Release",
         "price": 1200,
-        "description": "A chart-topping single that captivated listeners.",
+        "description": "A hit single that topped the charts.",
         "year": 2022,
-        "image": "https://i.pinimg.com/736x/0d/64/98/0d64989794b1a4c9d89bff571d3d5842.jpg",
-        "comment": "Emma's hit single 'Love Unbound' topped the charts and showcased her vocal talent."
-      },
-      {
-        "title": "Collaborative EP",
-        "price": 1200,
-        "description": "An EP featuring collaborations with other artists.",
-        "year": 2021,
         "image": "https://bernardmarr.com/wp-content/uploads/2021/11/What-Are-NFTs-An-Easy-Explanation-For-Anyone.jpg",
-        "comment": "Emma's collaborative EP highlights her versatility as an artist."
+        "comment": "Emma's single release showcases her vocal range and songwriting talent."
       },
       {
-        "title": "Music Video",
+        "title": "Collaboration EP",
         "price": 1200,
-        "description": "A visually stunning music video for a popular song.",
-        "year": 2020,
+        "description": "An EP featuring collaborations with various artists.",
+        "year": 2021,
         "image": "https://i.pinimg.com/736x/0d/64/98/0d64989794b1a4c9d89bff571d3d5842.jpg",
-        "comment": "Emma's music video for 'Dancing in the Rain' won several awards for its artistic vision."
+        "comment": "Emma's collaborative effort has garnered critical acclaim."
       },
       {
         "title": "Live Album",
         "price": 1200,
         "description": "A live recording capturing the energy of her performances.",
+        "year": 2020,
+        "image": "https://bernardmarr.com/wp-content/uploads/2021/11/What-Are-NFTs-An-Easy-Explanation-For-Anyone.jpg",
+        "comment": "Emma's live album brings fans closer to her musical journey."
+      },
+      {
+        "title": "Music Video",
+        "price": 1200,
+        "description": "A visually stunning music video for a fan-favorite song.",
         "year": 2019,
-        "image": "https://bernardmarr.com/wp-content/uploads/2021/11/What-Are-NFTs-An-Easy-Explanation-For-Anyone.jpg",
-        "comment": "Emma's live album showcases her powerful voice and stage presence."
-      },
-      {
-        "title": "Charity Single",
-        "price": 1200,
-        "description": "A single released to raise funds for a charitable cause.",
-        "year": 2023,
         "image": "https://i.pinimg.com/736x/0d/64/98/0d64989794b1a4c9d89bff571d3d5842.jpg",
-        "comment": "Emma's charity single 'Hope for Tomorrow' supports a great cause and resonates with many."
-      },
-      {
-        "title": "Soundtrack Contribution",
-        "price": 1200,
-        "description": "Contributed a song to a popular movie soundtrack.",
-        "year": 2021,
-        "image": "https://bernardmarr.com/wp-content/uploads/2021/11/What-Are-NFTs-An-Easy-Explanation-For-Anyone.jpg",
-        "comment": "Emma's song in 'Heartstrings' added emotional depth to the film."
-      },
-      {
-        "title": "Collaboration with Renowned Artist",
-        "price": 1200,
-        "description": "A collaboration with a well-known artist that gained widespread attention.",
-        "year": 2022,
-        "image": "https://i.pinimg.com/736x/0d/64/98/0d64989794b1a4c9d89bff571d3d5842.jpg",
-        "comment": "Emma's collaboration with a renowned artist showcases her ability to blend styles."
-      },
-      {
-        "title": "Music Festival Performance",
-        "price": 1200,
-        "description": "Performed at a major music festival, captivating the audience.",
-        "year": 2020,
-        "image": "https://bernardmarr.com/wp-content/uploads/2021/11/What-Are-NFTs-An-Easy-Explanation-For-Anyone.jpg",
-        "comment": "Emma's performance at the 'Summer Jam' festival left fans wanting more."
-      }
-    ]
-  },
-  {
-    "id": 14,
-    "name": "Maxwell Reed",
-    "jobs": "Visual Artist",
-    "change": "21000 sum",
-    "nftsSold": 950,
-    "volume": "5 ⭐",
-    "period": "month",
-    "image": "https://i.pinimg.com/736x/0d/64/98/0d64989794b1a4c9d89bff571d3d5842.jpg",
-    "works": [
-      {
-        "title": "Abstract Masterpiece",
-        "price": 1200,
-        "description": "A stunning piece of abstract art that captivates the eye.",
-        "year": 2023,
-        "image": "https://bernardmarr.com/wp-content/uploads/2021/11/What-Are-NFTs-An-Easy-Explanation-For-Anyone.jpg",
-        "comment": "Maxwell Reed's abstract masterpiece challenges viewers to interpret its meaning."
-      },
-      {
-        "title": "Landscape Painting",
-        "price": 1200,
-        "description": "A breathtaking landscape that evokes a sense of tranquility.",
-        "year": 2022,
-        "image": "https://i.pinimg.com/736x/0d/64/98/0d64989794b1a4c9d89bff571d3d5842.jpg",
-        "comment": "Maxwell's landscape painting captures the beauty of nature."
-      },
-      {
-        "title": "Portrait Series",
-        "price": 1200,
-        "description": "A series of portraits that explore the human experience.",
-        "year": 2021,
-        "image": "https://bernardmarr.com/wp-content/uploads/2021/11/What-Are-NFTs-An-Easy-Explanation-For-Anyone.jpg",
-        "comment": "Maxwell's portrait series highlights the depth of human emotion."
-      },
-      {
-        "title": "Mixed Media Installation",
-        "price": 1200,
-        "description": "An innovative installation using mixed media techniques.",
-        "year": 2020,
-        "image": "https://i.pinimg.com/736x/0d/64/98/0d64989794b1a4c9d89bff571d3d5842.jpg",
-        "comment": "Maxwell's mixed media installation invites viewers to interact with the art."
-      },
-      {
-        "title": "Sculpture",
-        "price": 1200,
-        "description": "A striking sculpture that challenges perceptions of form.",
-        "year": 2019,
-        "image": "https://bernardmarr.com/wp-content/uploads/2021/11/What-Are-NFTs-An-Easy-Explanation-For-Anyone.jpg",
-        "comment": "Maxwell's sculpture provokes thought and discussion."
-      },
-      {
-        "title": "Street Art Mural",
-        "price": 1200,
-        "description": "A vibrant mural that brightens the urban landscape.",
-        "year": 2023,
-        "image": "https://i.pinimg.com/736x/0d/64/98/0d64989794b1a4c9d89bff571d3d5842.jpg",
-        "comment": "Maxwell's street art mural adds color and life to the city."
-      },
-      {
-        "title": "Digital Art Series",
-        "price": 1200,
-        "description": "A series of digital artworks exploring various themes.",
-        "year": 2021,
-        "image": "https://bernardmarr.com/wp-content/uploads/2021/11/What-Are-NFTs-An-Easy-Explanation-For-Anyone.jpg",
-        "comment": "Maxwell's digital art series showcases the fusion of technology and creativity."
-      },
-      {
-        "title": "Art for Charity",
-        "price": 1200,
-        "description": "Created artwork for a charitable cause, raising awareness.",
-        "year": 2020,
-        "image": "https://i.pinimg.com/736x/0d/64/98/0d64989794b1a4c9d89bff571d3d5842.jpg",
-        "comment": "Maxwell's art for charity initiative makes a significant impact."
-      },
-      {
-        "title": "Interactive Art Piece",
-        "price": 1200,
-        "description": "An art piece that encourages audience participation.",
-        "year": 2022,
-        "image": "https://bernardmarr.com/wp-content/uploads/2021/11/What-Are-NFTs-An-Easy-Explanation-For-Anyone.jpg",
-        "comment": "Maxwell's interactive art piece creates a dialogue between artist and viewer."
-      }
-    ]
-  },
-  {
-    "id": 15,
-    "name": "Sophie Lin",
-    "jobs": "Content Creator",
-    "change": "23000 sum",
-    "nftsSold": 500,
-    "volume": "4.5 ⭐",
-    "period": "month",
-    "image": "https://i.pinimg.com/736x/0d/64/98/0d64989794b1a4c9d89bff571d3d5842.jpg",
-    "works": [
-      {
-        "title": "Viral Video Series",
-        "price": 1200,
-        "description": "A series of videos that went viral and captured massive attention.",
-        "year": 2023,
-        "image": "https://bernardmarr.com/wp-content/uploads/2021/11/What-Are-NFTs-An-Easy-Explanation-For-Anyone.jpg",
-        "comment": "Sophie Lin's viral video series reshaped content creation trends."
-      },
-      {
-        "title": "Collaboration with Brands",
-        "price": 1200,
-        "description": "Partnered with brands for creative content.",
-        "year": 2022,
-        "image": "https://i.pinimg.com/736x/0d/64/98/0d64989794b1a4c9d89bff571d3d5842.jpg",
-        "comment": "Sophie Lin's brand collaborations have brought fresh ideas to marketing."
-      },
-      {
-        "title": "Podcast Launch",
-        "price": 1200,
-        "description": "Launched a podcast discussing trending topics.",
-        "year": 2021,
-        "image": "https://bernardmarr.com/wp-content/uploads/2021/11/What-Are-NFTs-An-Easy-Explanation-For-Anyone.jpg",
-        "comment": "Sophie Lin's podcast has engaged a diverse audience."
-      },
-      {
-        "title": "Social Media Campaign",
-        "price": 1200,
-        "description": "Developed a successful social media campaign.",
-        "year": 2020,
-        "image": "https://i.pinimg.com/736x/0d/64/98/0d64989794b1a4c9d89bff571d3d5842.jpg",
-        "comment": "Sophie Lin's social media campaign went viral and reached millions."
-      },
-      {
-        "title": "Creative Writing Project",
-        "price": 1200,
-        "description": "Produced a creative writing project that received accolades.",
-        "year": 2023,
-        "image": "https://bernardmarr.com/wp-content/uploads/2021/11/What-Are-NFTs-An-Easy-Explanation-For-Anyone.jpg",
-        "comment": "Sophie Lin's writing project highlights her storytelling abilities."
-      },
-      {
-        "title": "Influencer Partnerships",
-        "price": 1200,
-        "description": "Worked with influencers to expand reach.",
-        "year": 2022,
-        "image": "https://i.pinimg.com/736x/0d/64/98/0d64989794b1a4c9d89bff571d3d5842.jpg",
-        "comment": "Sophie Lin's influencer partnerships boosted her visibility."
-      },
-      {
-        "title": "Community Engagement Initiative",
-        "price": 1200,
-        "description": "Launched an initiative to engage the community.",
-        "year": 2021,
-        "image": "https://bernardmarr.com/wp-content/uploads/2021/11/What-Are-NFTs-An-Easy-Explanation-For-Anyone.jpg",
-        "comment": "Sophie Lin's community initiative fostered connection and support."
-      },
-      {
-        "title": "Merchandise Line",
-        "price": 1200,
-        "description": "Launched a successful merchandise line related to her content.",
-        "year": 2020,
-        "image": "https://i.pinimg.com/736x/0d/64/98/0d64989794b1a4c9d89bff571d3d5842.jpg",
-        "comment": "Sophie Lin's merchandise line resonated with her audience."
-      },
-      {
-        "title": "Online Course Creation",
-        "price": 1200,
-        "description": "Created an online course to teach skills.",
-        "year": 2023,
-        "image": "https://bernardmarr.com/wp-content/uploads/2021/11/What-Are-NFTs-An-Easy-Explanation-For-Anyone.jpg",
-        "comment": "Sophie Lin's online course has empowered many learners."
+        "comment": "Emma's music video showcases her artistic vision."
       }
     ]
   }
