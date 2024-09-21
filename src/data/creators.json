@@ -1,0 +1,422 @@
+[
+  {
+    "id": 11,
+    "name": "Scarlett Bremor",
+    "jobs": "Writer",
+    "change": "20000 sum",
+    "nftsSold": 900,
+    "volume": "5 ⭐",
+    "period": "today",
+    "image": "https://i.pinimg.com/736x/0d/64/98/0d64989794b1a4c9d89bff571d3d5842.jpg",
+    "works": [
+      {
+        "title": "Epic Fantasy Series",
+        "price": 1200,
+        "description": "A series of novels set in a richly detailed fantasy world.",
+        "year": 2023,
+        "image": "https://i.pinimg.com/736x/0d/64/98/0d64989794b1a4c9d89bff571d3d5842.jpg",
+        "comment": "Scarlett's epic fantasy series has captivated readers with its intricate plot, compelling characters, and vivid world-building."
+      },
+      {
+        "title": "Historical Fiction Masterpiece",
+        "price": 1200,
+        "description": "A novel that brings history to life through engaging storytelling.",
+        "year": 2022,
+        "image": "https://bernardmarr.com/wp-content/uploads/2021/11/What-Are-NFTs-An-Easy-Explanation-For-Anyone.jpg",
+        "comment": "Scarlett's historical fiction masterpiece immerses readers in the past, blending fact with fiction to create a gripping narrative."
+      },
+      {
+        "title": "Mystery Novel",
+        "price": 1200,
+        "description": "A thrilling mystery that keeps readers guessing until the end.",
+        "year": 2021,
+        "image": "https://i.pinimg.com/736x/0d/64/98/0d64989794b1a4c9d89bff571d3d5842.jpg",
+        "comment": "Scarlett's mystery novel twists and turns create a captivating experience."
+      },
+      {
+        "title": "Romantic Saga",
+        "price": 1200,
+        "description": "A love story that spans generations, filled with passion and heartache.",
+        "year": 2020,
+        "image": "https://bernardmarr.com/wp-content/uploads/2021/11/What-Are-NFTs-An-Easy-Explanation-For-Anyone.jpg",
+        "comment": "Scarlett's romantic saga tugs at the heartstrings and showcases the complexities of love."
+      },
+      {
+        "title": "Short Story Collection",
+        "price": 1200,
+        "description": "A collection of short stories exploring human emotions and experiences.",
+        "year": 2019,
+        "image": "https://i.pinimg.com/736x/0d/64/98/0d64989794b1a4c9d89bff571d3d5842.jpg",
+        "comment": "Scarlett's short stories offer insightful glimpses into the human experience."
+      },
+      {
+        "title": "Children's Book",
+        "price": 1200,
+        "description": "A whimsical tale for children, filled with colorful illustrations.",
+        "year": 2018,
+        "image": "https://bernardmarr.com/wp-content/uploads/2021/11/What-Are-NFTs-An-Easy-Explanation-For-Anyone.jpg",
+        "comment": "Scarlett's children's book sparks imagination and creativity."
+      },
+      {
+        "title": "Science Fiction Adventure",
+        "price": 1200,
+        "description": "An imaginative journey through futuristic landscapes and technology.",
+        "year": 2023,
+        "image": "https://i.pinimg.com/736x/0d/64/98/0d64989794b1a4c9d89bff571d3d5842.jpg",
+        "comment": "Scarlett's sci-fi adventure enthralls readers with its visionary concepts."
+      },
+      {
+        "title": "Poetry Anthology",
+        "price": 1200,
+        "description": "An anthology of poems reflecting personal thoughts and observations.",
+        "year": 2021,
+        "image": "https://bernardmarr.com/wp-content/uploads/2021/11/What-Are-NFTs-An-Easy-Explanation-For-Anyone.jpg",
+        "comment": "Scarlett's poetry captures the beauty and struggles of life."
+      },
+      {
+        "title": "Memoir",
+        "price": 1200,
+        "description": "A personal account of experiences and lessons learned.",
+        "year": 2020,
+        "image": "https://i.pinimg.com/736x/0d/64/98/0d64989794b1a4c9d89bff571d3d5842.jpg",
+        "comment": "Scarlett's memoir offers insight into her journey as a writer."
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "name": "Travis Denning",
+    "jobs": "Actor",
+    "change": "18000 sum",
+    "nftsSold": 820,
+    "volume": "5 ⭐",
+    "period": "today",
+    "image": "https://i.pinimg.com/736x/0d/64/98/0d64989794b1a4c9d89bff571d3d5842.jpg",
+    "works": [
+      {
+        "title": "Award-Winning Drama",
+        "price": 1200,
+        "description": "A critically acclaimed performance in a gripping drama film.",
+        "year": 2023,
+        "image": "https://bernardmarr.com/wp-content/uploads/2021/11/What-Are-NFTs-An-Easy-Explanation-For-Anyone.jpg",
+        "comment": "Travis Denning's award-winning performance in the drama film 'Tears of Redemption' has earned him praise for his emotional depth and authenticity."
+      },
+      {
+        "title": "Comedic Genius",
+        "price": 1200,
+        "description": "A hilarious role in a popular comedy series.",
+        "year": 2022,
+        "image": "https://i.pinimg.com/736x/0d/64/98/0d64989794b1a4c9d89bff571d3d5842.jpg",
+        "comment": "Travis Denning's comedic genius shines in the hit series 'Laugh Out Loud,' where his impeccable timing and wit leave audiences in stitches."
+      },
+      {
+        "title": "Action Hero",
+        "price": 1200,
+        "description": "An explosive performance in a thrilling action movie.",
+        "year": 2021,
+        "image": "https://bernardmarr.com/wp-content/uploads/2021/11/What-Are-NFTs-An-Easy-Explanation-For-Anyone.jpg",
+        "comment": "Travis's portrayal of the action hero in 'Shadow Pursuit' showcases his physicality and charisma."
+      },
+      {
+        "title": "Romantic Lead",
+        "price": 1200,
+        "description": "A heartfelt performance in a romantic drama.",
+        "year": 2020,
+        "image": "https://i.pinimg.com/736x/0d/64/98/0d64989794b1a4c9d89bff571d3d5842.jpg",
+        "comment": "Travis brings depth to the romantic lead in 'Love's Journey,' making audiences feel every emotion."
+      },
+      {
+        "title": "Voice Acting Role",
+        "price": 1200,
+        "description": "A captivating voice performance in an animated film.",
+        "year": 2019,
+        "image": "https://bernardmarr.com/wp-content/uploads/2021/11/What-Are-NFTs-An-Easy-Explanation-For-Anyone.jpg",
+        "comment": "Travis's voice work in 'Dreamland' adds charm and character to the animated world."
+      },
+      {
+        "title": "Stage Performance",
+        "price": 1200,
+        "description": "An outstanding performance in a live theater production.",
+        "year": 2023,
+        "image": "https://i.pinimg.com/736x/0d/64/98/0d64989794b1a4c9d89bff571d3d5842.jpg",
+        "comment": "Travis's stage presence captivates audiences in the play 'Life's Tapestry.'"
+      },
+      {
+        "title": "Supporting Role",
+        "price": 1200,
+        "description": "A powerful supporting role in a drama series.",
+        "year": 2022,
+        "image": "https://bernardmarr.com/wp-content/uploads/2021/11/What-Are-NFTs-An-Easy-Explanation-For-Anyone.jpg",
+        "comment": "Travis's performance in the series 'Shadows of the Past' adds depth to the storyline."
+      },
+      {
+        "title": "Guest Star Appearance",
+        "price": 1200,
+        "description": "A memorable guest role in a popular TV show.",
+        "year": 2021,
+        "image": "https://i.pinimg.com/736x/0d/64/98/0d64989794b1a4c9d89bff571d3d5842.jpg",
+        "comment": "Travis's guest appearance in 'Mystery Town' brought humor and intrigue to the episode."
+      },
+      {
+        "title": "Documentary Narration",
+        "price": 1200,
+        "description": "Narrating a thought-provoking documentary.",
+        "year": 2020,
+        "image": "https://bernardmarr.com/wp-content/uploads/2021/11/What-Are-NFTs-An-Easy-Explanation-For-Anyone.jpg",
+        "comment": "Travis's narration of 'Voices of the Past' provides a compelling perspective."
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "name": "Emma Carter",
+    "jobs": "Musician",
+    "change": "25000 sum",
+    "nftsSold": 750,
+    "volume": "4 ⭐",
+    "period": "week",
+    "image": "https://i.pinimg.com/736x/0d/64/98/0d64989794b1a4c9d89bff571d3d5842.jpg",
+    "works": [
+      {
+        "title": "Debut Album",
+        "price": 1200,
+        "description": "An impressive debut album showcasing diverse musical styles.",
+        "year": 2023,
+        "image": "https://bernardmarr.com/wp-content/uploads/2021/11/What-Are-NFTs-An-Easy-Explanation-For-Anyone.jpg",
+        "comment": "Emma Carter's debut album has received critical acclaim for its innovative sound and heartfelt lyrics."
+      },
+      {
+        "title": "Hit Single",
+        "price": 1200,
+        "description": "A chart-topping single that captivated listeners.",
+        "year": 2022,
+        "image": "https://i.pinimg.com/736x/0d/64/98/0d64989794b1a4c9d89bff571d3d5842.jpg",
+        "comment": "Emma's hit single 'Love Unbound' topped the charts and showcased her vocal talent."
+      },
+      {
+        "title": "Collaborative EP",
+        "price": 1200,
+        "description": "An EP featuring collaborations with other artists.",
+        "year": 2021,
+        "image": "https://bernardmarr.com/wp-content/uploads/2021/11/What-Are-NFTs-An-Easy-Explanation-For-Anyone.jpg",
+        "comment": "Emma's collaborative EP highlights her versatility as an artist."
+      },
+      {
+        "title": "Music Video",
+        "price": 1200,
+        "description": "A visually stunning music video for a popular song.",
+        "year": 2020,
+        "image": "https://i.pinimg.com/736x/0d/64/98/0d64989794b1a4c9d89bff571d3d5842.jpg",
+        "comment": "Emma's music video for 'Dancing in the Rain' won several awards for its artistic vision."
+      },
+      {
+        "title": "Live Album",
+        "price": 1200,
+        "description": "A live recording capturing the energy of her performances.",
+        "year": 2019,
+        "image": "https://bernardmarr.com/wp-content/uploads/2021/11/What-Are-NFTs-An-Easy-Explanation-For-Anyone.jpg",
+        "comment": "Emma's live album showcases her powerful voice and stage presence."
+      },
+      {
+        "title": "Charity Single",
+        "price": 1200,
+        "description": "A single released to raise funds for a charitable cause.",
+        "year": 2023,
+        "image": "https://i.pinimg.com/736x/0d/64/98/0d64989794b1a4c9d89bff571d3d5842.jpg",
+        "comment": "Emma's charity single 'Hope for Tomorrow' supports a great cause and resonates with many."
+      },
+      {
+        "title": "Soundtrack Contribution",
+        "price": 1200,
+        "description": "Contributed a song to a popular movie soundtrack.",
+        "year": 2021,
+        "image": "https://bernardmarr.com/wp-content/uploads/2021/11/What-Are-NFTs-An-Easy-Explanation-For-Anyone.jpg",
+        "comment": "Emma's song in 'Heartstrings' added emotional depth to the film."
+      },
+      {
+        "title": "Collaboration with Renowned Artist",
+        "price": 1200,
+        "description": "A collaboration with a well-known artist that gained widespread attention.",
+        "year": 2022,
+        "image": "https://i.pinimg.com/736x/0d/64/98/0d64989794b1a4c9d89bff571d3d5842.jpg",
+        "comment": "Emma's collaboration with a renowned artist showcases her ability to blend styles."
+      },
+      {
+        "title": "Music Festival Performance",
+        "price": 1200,
+        "description": "Performed at a major music festival, captivating the audience.",
+        "year": 2020,
+        "image": "https://bernardmarr.com/wp-content/uploads/2021/11/What-Are-NFTs-An-Easy-Explanation-For-Anyone.jpg",
+        "comment": "Emma's performance at the 'Summer Jam' festival left fans wanting more."
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "name": "Maxwell Reed",
+    "jobs": "Visual Artist",
+    "change": "21000 sum",
+    "nftsSold": 950,
+    "volume": "5 ⭐",
+    "period": "month",
+    "image": "https://i.pinimg.com/736x/0d/64/98/0d64989794b1a4c9d89bff571d3d5842.jpg",
+    "works": [
+      {
+        "title": "Abstract Masterpiece",
+        "price": 1200,
+        "description": "A stunning piece of abstract art that captivates the eye.",
+        "year": 2023,
+        "image": "https://bernardmarr.com/wp-content/uploads/2021/11/What-Are-NFTs-An-Easy-Explanation-For-Anyone.jpg",
+        "comment": "Maxwell Reed's abstract masterpiece challenges viewers to interpret its meaning."
+      },
+      {
+        "title": "Landscape Painting",
+        "price": 1200,
+        "description": "A breathtaking landscape that evokes a sense of tranquility.",
+        "year": 2022,
+        "image": "https://i.pinimg.com/736x/0d/64/98/0d64989794b1a4c9d89bff571d3d5842.jpg",
+        "comment": "Maxwell's landscape painting captures the beauty of nature."
+      },
+      {
+        "title": "Portrait Series",
+        "price": 1200,
+        "description": "A series of portraits that explore the human experience.",
+        "year": 2021,
+        "image": "https://bernardmarr.com/wp-content/uploads/2021/11/What-Are-NFTs-An-Easy-Explanation-For-Anyone.jpg",
+        "comment": "Maxwell's portrait series highlights the depth of human emotion."
+      },
+      {
+        "title": "Mixed Media Installation",
+        "price": 1200,
+        "description": "An innovative installation using mixed media techniques.",
+        "year": 2020,
+        "image": "https://i.pinimg.com/736x/0d/64/98/0d64989794b1a4c9d89bff571d3d5842.jpg",
+        "comment": "Maxwell's mixed media installation invites viewers to interact with the art."
+      },
+      {
+        "title": "Sculpture",
+        "price": 1200,
+        "description": "A striking sculpture that challenges perceptions of form.",
+        "year": 2019,
+        "image": "https://bernardmarr.com/wp-content/uploads/2021/11/What-Are-NFTs-An-Easy-Explanation-For-Anyone.jpg",
+        "comment": "Maxwell's sculpture provokes thought and discussion."
+      },
+      {
+        "title": "Street Art Mural",
+        "price": 1200,
+        "description": "A vibrant mural that brightens the urban landscape.",
+        "year": 2023,
+        "image": "https://i.pinimg.com/736x/0d/64/98/0d64989794b1a4c9d89bff571d3d5842.jpg",
+        "comment": "Maxwell's street art mural adds color and life to the city."
+      },
+      {
+        "title": "Digital Art Series",
+        "price": 1200,
+        "description": "A series of digital artworks exploring various themes.",
+        "year": 2021,
+        "image": "https://bernardmarr.com/wp-content/uploads/2021/11/What-Are-NFTs-An-Easy-Explanation-For-Anyone.jpg",
+        "comment": "Maxwell's digital art series showcases the fusion of technology and creativity."
+      },
+      {
+        "title": "Art for Charity",
+        "price": 1200,
+        "description": "Created artwork for a charitable cause, raising awareness.",
+        "year": 2020,
+        "image": "https://i.pinimg.com/736x/0d/64/98/0d64989794b1a4c9d89bff571d3d5842.jpg",
+        "comment": "Maxwell's art for charity initiative makes a significant impact."
+      },
+      {
+        "title": "Interactive Art Piece",
+        "price": 1200,
+        "description": "An art piece that encourages audience participation.",
+        "year": 2022,
+        "image": "https://bernardmarr.com/wp-content/uploads/2021/11/What-Are-NFTs-An-Easy-Explanation-For-Anyone.jpg",
+        "comment": "Maxwell's interactive art piece creates a dialogue between artist and viewer."
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "name": "Sophie Lin",
+    "jobs": "Content Creator",
+    "change": "23000 sum",
+    "nftsSold": 500,
+    "volume": "4.5 ⭐",
+    "period": "month",
+    "image": "https://i.pinimg.com/736x/0d/64/98/0d64989794b1a4c9d89bff571d3d5842.jpg",
+    "works": [
+      {
+        "title": "Viral Video Series",
+        "price": 1200,
+        "description": "A series of videos that went viral and captured massive attention.",
+        "year": 2023,
+        "image": "https://bernardmarr.com/wp-content/uploads/2021/11/What-Are-NFTs-An-Easy-Explanation-For-Anyone.jpg",
+        "comment": "Sophie Lin's viral video series reshaped content creation trends."
+      },
+      {
+        "title": "Collaboration with Brands",
+        "price": 1200,
+        "description": "Partnered with brands for creative content.",
+        "year": 2022,
+        "image": "https://i.pinimg.com/736x/0d/64/98/0d64989794b1a4c9d89bff571d3d5842.jpg",
+        "comment": "Sophie Lin's brand collaborations have brought fresh ideas to marketing."
+      },
+      {
+        "title": "Podcast Launch",
+        "price": 1200,
+        "description": "Launched a podcast discussing trending topics.",
+        "year": 2021,
+        "image": "https://bernardmarr.com/wp-content/uploads/2021/11/What-Are-NFTs-An-Easy-Explanation-For-Anyone.jpg",
+        "comment": "Sophie Lin's podcast has engaged a diverse audience."
+      },
+      {
+        "title": "Social Media Campaign",
+        "price": 1200,
+        "description": "Developed a successful social media campaign.",
+        "year": 2020,
+        "image": "https://i.pinimg.com/736x/0d/64/98/0d64989794b1a4c9d89bff571d3d5842.jpg",
+        "comment": "Sophie Lin's social media campaign went viral and reached millions."
+      },
+      {
+        "title": "Creative Writing Project",
+        "price": 1200,
+        "description": "Produced a creative writing project that received accolades.",
+        "year": 2023,
+        "image": "https://bernardmarr.com/wp-content/uploads/2021/11/What-Are-NFTs-An-Easy-Explanation-For-Anyone.jpg",
+        "comment": "Sophie Lin's writing project highlights her storytelling abilities."
+      },
+      {
+        "title": "Influencer Partnerships",
+        "price": 1200,
+        "description": "Worked with influencers to expand reach.",
+        "year": 2022,
+        "image": "https://i.pinimg.com/736x/0d/64/98/0d64989794b1a4c9d89bff571d3d5842.jpg",
+        "comment": "Sophie Lin's influencer partnerships boosted her visibility."
+      },
+      {
+        "title": "Community Engagement Initiative",
+        "price": 1200,
+        "description": "Launched an initiative to engage the community.",
+        "year": 2021,
+        "image": "https://bernardmarr.com/wp-content/uploads/2021/11/What-Are-NFTs-An-Easy-Explanation-For-Anyone.jpg",
+        "comment": "Sophie Lin's community initiative fostered connection and support."
+      },
+      {
+        "title": "Merchandise Line",
+        "price": 1200,
+        "description": "Launched a successful merchandise line related to her content.",
+        "year": 2020,
+        "image": "https://i.pinimg.com/736x/0d/64/98/0d64989794b1a4c9d89bff571d3d5842.jpg",
+        "comment": "Sophie Lin's merchandise line resonated with her audience."
+      },
+      {
+        "title": "Online Course Creation",
+        "price": 1200,
+        "description": "Created an online course to teach skills.",
+        "year": 2023,
+        "image": "https://bernardmarr.com/wp-content/uploads/2021/11/What-Are-NFTs-An-Easy-Explanation-For-Anyone.jpg",
+        "comment": "Sophie Lin's online course has empowered many learners."
+      }
+    ]
+  }
+]
