@@ -5,32 +5,52 @@ const Login = () => {
   const [isRegistering, setIsRegistering] = useState(false);
   const [isWorker, setIsWorker] = useState(false);
   const [userType, setUserType] = useState('');
+  const [formData, setFormData] = useState({
+    firstName: '',
+    lastName: '',
+    email: '',
+    password: '',
+    education: '',
+    profession: '',
+    experience: '',
+    previousWorkplace: '',
+    phone: '',
+  });
+
+  const handleInputChange = (e) => {
+    const { name, value } = e.target;
+    setFormData({ ...formData, [name]: value });
+  };
 
   const handleRegisterToggle = () => {
-    setIsRegistering(true); // Set to true to switch to the register state
-    setUserType(''); // Clear userType for registration
+    setIsRegistering(!isRegistering);
+    setUserType('');
   };
 
   const handleUserType = (type) => {
     setUserType(type);
-    if (type === 'worker') {
-      setIsWorker(true);
-    } else {
-      setIsWorker(false);
-    }
+    setIsWorker(type === 'worker');
+  };
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    // Form ma'lumotlarini yuborish logikasi
+    console.log('Submitted:', formData);
   };
 
   return (
     <div className="flex justify-center items-center min-h-screen bg-gray-100 p-6">
-      <div className="bg-white shadow-lg rounded-lg p-8 w-full max-w-md transition-all duration-500 ease-in-out transform hover:scale-105">
+      <div className="bg-white shadow-lg rounded-lg p-8 w-full max-w-md transition-transform duration-500 transform hover:scale-105">
         {!isRegistering ? (
           <div className="login-form">
             <h2 className="text-2xl font-bold mb-6 text-center">Login</h2>
-            <form className="space-y-4">
+            <form onSubmit={handleSubmit} className="space-y-4">
               <div>
                 <label className="block text-sm font-medium text-gray-700">Email</label>
                 <input
                   type="email"
+                  name="email"
+                  onChange={handleInputChange}
                   className="w-full p-2 border border-gray-300 rounded-lg focus:outline-none focus:border-indigo-500 transition-colors"
                   required
                 />
@@ -39,18 +59,18 @@ const Login = () => {
                 <label className="block text-sm font-medium text-gray-700">Password</label>
                 <input
                   type="password"
+                  name="password"
+                  onChange={handleInputChange}
                   className="w-full p-2 border border-gray-300 rounded-lg focus:outline-none focus:border-indigo-500 transition-colors"
                   required
                 />
               </div>
-              <NavLink to="/" className="mt-[50px]">
-                <button
-                  type="submit"
-                  className="w-full bg-indigo-500 text-white py-2 rounded-lg hover:bg-indigo-600 transition-colors mt-[50px]"
-                >
-                  Login
-                </button>
-              </NavLink>
+              <button
+                type="submit"
+                className="w-full bg-indigo-500 text-white py-2 rounded-lg hover:bg-indigo-600 transition-colors mt-4"
+              >
+                Login
+              </button>
             </form>
             <p
               onClick={handleRegisterToggle}
@@ -62,11 +82,13 @@ const Login = () => {
         ) : (
           <div className="register-form">
             <h2 className="text-2xl font-bold mb-6 text-center">Register</h2>
-            <form className="space-y-4">
+            <form onSubmit={handleSubmit} className="space-y-4">
               <div>
                 <label className="block text-sm font-medium text-gray-700">First Name</label>
                 <input
                   type="text"
+                  name="firstName"
+                  onChange={handleInputChange}
                   className="w-full p-2 border border-gray-300 rounded-lg focus:outline-none focus:border-indigo-500 transition-colors"
                   required
                 />
@@ -75,6 +97,8 @@ const Login = () => {
                 <label className="block text-sm font-medium text-gray-700">Last Name</label>
                 <input
                   type="text"
+                  name="lastName"
+                  onChange={handleInputChange}
                   className="w-full p-2 border border-gray-300 rounded-lg focus:outline-none focus:border-indigo-500 transition-colors"
                   required
                 />
@@ -83,6 +107,8 @@ const Login = () => {
                 <label className="block text-sm font-medium text-gray-700">Email</label>
                 <input
                   type="email"
+                  name="email"
+                  onChange={handleInputChange}
                   className="w-full p-2 border border-gray-300 rounded-lg focus:outline-none focus:border-indigo-500 transition-colors"
                   required
                 />
@@ -91,21 +117,25 @@ const Login = () => {
                 <label className="block text-sm font-medium text-gray-700">Password</label>
                 <input
                   type="password"
+                  name="password"
+                  onChange={handleInputChange}
                   className="w-full p-2 border border-gray-300 rounded-lg focus:outline-none focus:border-indigo-500 transition-colors"
                   required
                 />
               </div>
-              {userType === '' ? (
+              {userType === '' && (
                 <div>
                   <h3 className="text-center text-lg font-bold mt-6">What are you looking for?</h3>
                   <div className="flex justify-around mt-4">
                     <button
+                      type="button"
                       onClick={() => handleUserType('client')}
                       className="bg-indigo-500 text-white py-2 px-4 rounded-lg hover:bg-indigo-600 transition-colors"
                     >
                       Looking for services
                     </button>
                     <button
+                      type="button"
                       onClick={() => handleUserType('worker')}
                       className="bg-green-500 text-white py-2 px-4 rounded-lg hover:bg-green-600 transition-colors"
                     >
@@ -113,8 +143,7 @@ const Login = () => {
                     </button>
                   </div>
                 </div>
-              ) : null}
-
+              )}
               {isWorker && (
                 <div className="worker-info-form mt-6">
                   <h3 className="text-lg font-bold">Worker Information</h3>
@@ -123,6 +152,8 @@ const Login = () => {
                       <label className="block text-sm font-medium text-gray-700">Education</label>
                       <input
                         type="text"
+                        name="education"
+                        onChange={handleInputChange}
                         className="w-full p-2 border border-gray-300 rounded-lg focus:outline-none focus:border-indigo-500 transition-colors"
                         required
                       />
@@ -131,6 +162,8 @@ const Login = () => {
                       <label className="block text-sm font-medium text-gray-700">Profession</label>
                       <input
                         type="text"
+                        name="profession"
+                        onChange={handleInputChange}
                         className="w-full p-2 border border-gray-300 rounded-lg focus:outline-none focus:border-indigo-500 transition-colors"
                         required
                       />
@@ -139,21 +172,27 @@ const Login = () => {
                       <label className="block text-sm font-medium text-gray-700">Experience</label>
                       <input
                         type="text"
+                        name="experience"
+                        onChange={handleInputChange}
                         className="w-full p-2 border border-gray-300 rounded-lg focus:outline-none focus:border-indigo-500 transition-colors"
                         required
                       />
                     </div>
                     <div>
-                      <label className="block text-sm font-medium text-gray-700">Previous workplace</label>
+                      <label className="block text-sm font-medium text-gray-700">Previous Workplace</label>
                       <input
                         type="text"
+                        name="previousWorkplace"
+                        onChange={handleInputChange}
                         className="w-full p-2 border border-gray-300 rounded-lg focus:outline-none focus:border-indigo-500 transition-colors"
                       />
                     </div>
                     <div>
-                      <label className="block text-sm font-medium text-gray-700">Your phone number</label>
+                      <label className="block text-sm font-medium text-gray-700">Your Phone Number</label>
                       <input
                         type="tel"
+                        name="phone"
+                        onChange={handleInputChange}
                         className="w-full p-2 border border-gray-300 rounded-lg focus:outline-none focus:border-indigo-500 transition-colors"
                         required
                       />
